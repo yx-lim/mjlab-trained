@@ -80,6 +80,8 @@
     "total_reward_rate": "total_reward divided by environment step dt",
     "reward_terms": "weighted per-step reward rates before dt scaling",
     "errors": "reference snapshotted before env.step, robot state read after physics",
+    "joint_position_units": "radians",
+    "joint_velocity_units": "radians per second",
     "auto_reset": false
   }
 }
