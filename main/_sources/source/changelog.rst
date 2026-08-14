@@ -18,8 +18,6 @@ Added
 Changed
 ^^^^^^^
 
-- Tracking debug traces now record reference and robot joint velocities for
-  position, velocity, and combined-state RMSE analysis.
 - Changed the default MuJoCo Warp render background to solid black
   (``0, 0, 0, 1``), matching MuJoCo's native renderer. Contribution by
   @bd-pmorais.
