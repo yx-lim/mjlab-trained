@@ -1,0 +1,43 @@
+--- git commit ---
+7f553f5fd10d155f15ebabc00028777db716ec6a
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/2026-08-13_22-08-47.onnx
+	modified:   logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/events.out.tfevents.1786684129.vulcan.2324410.0
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/model_1500.pt
+	logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/model_2000.pt
+	logs/rsl_rl/g1_tracking/2026-08-13_22-30-44/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/2026-08-13_22-08-47.onnx b/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/2026-08-13_22-08-47.onnx
+index 6b2af5c..b4de9de 100644
+--- a/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/2026-08-13_22-08-47.onnx
++++ b/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/2026-08-13_22-08-47.onnx
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:829586394a7eeb6d66eacf4919752a846183086c0af7b3385c1c32ccdfd761e0
++oid sha256:095731fc51ea97001acd495b8033924d222ffeb4b3f51a0ccc9a9a7b5055776f
+ size 1121387
+diff --git a/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/events.out.tfevents.1786684129.vulcan.2324410.0 b/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/events.out.tfevents.1786684129.vulcan.2324410.0
+index 80faad6..e2f2458 100644
+--- a/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/events.out.tfevents.1786684129.vulcan.2324410.0
++++ b/logs/rsl_rl/g1_tracking/2026-08-13_22-08-47/events.out.tfevents.1786684129.vulcan.2324410.0
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:7acc92c17b542c2629e1b604c3a91224a0ff2929f7cf373c45e7ae07b048c031
+-size 2773933
++oid sha256:199603333b789ac4c2f1c56733ca28085963d0edddc637dce56a26654cd21acf
++size 4932358
