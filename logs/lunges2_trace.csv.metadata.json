@@ -74,12 +74,7 @@
     "reward/joint_limit",
     "reward/self_collisions"
   ],
-  "termination_columns": [
-    "termination/time_out",
-    "termination/anchor_pos",
-    "termination/anchor_ori",
-    "termination/ee_body_pos"
-  ],
+  "termination_columns": [],
   "notes": {
     "total_reward": "dt-scaled aggregate returned by env.step()",
     "total_reward_rate": "total_reward divided by environment step dt",
