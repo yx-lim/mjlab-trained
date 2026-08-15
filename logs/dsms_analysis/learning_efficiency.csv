@@ -1,0 +1,37 @@
+motion,condition,metric,direction,threshold,common_budget,auc_common_budget,final_1k_mean,iterations_to_threshold,run_id
+Lunges,DSMS,Mean reward,higher,30.0,20000.0,37.74044535220615,42.01011629934202,2022.0,3iimc6dh
+Lunges,DSMS,Body-orientation reward,higher,0.75,20000.0,0.8300745353047271,0.900470772843637,2143.0,3iimc6dh
+Lunges,DSMS,Anchor-position error,lower,0.12,20000.0,0.1737479498324916,0.12878597779812928,nan,3iimc6dh
+Lunges,DSMS,Body-orientation error,lower,0.2,20000.0,0.16227604978568852,0.11297619368085367,2087.0,3iimc6dh
+Lunges,DSMS,Joint-position L2 error,lower,0.9,20000.0,0.5862581607431173,0.4915393896386057,1401.0,3iimc6dh
+Lunges,DSMS,Action-rate penalty,higher,-0.5,20000.0,-0.35964787890892475,-0.27800531289772595,2849.0,3iimc6dh
+Lunges,GhostGUI,Mean reward,higher,30.0,20000.0,37.35863609034578,41.994449086872464,2261.0,a6sa5636
+Lunges,GhostGUI,Body-orientation reward,higher,0.75,20000.0,0.8211704206640134,0.8999118517615838,2448.0,a6sa5636
+Lunges,GhostGUI,Anchor-position error,lower,0.12,20000.0,0.18181662098038942,0.1323881311836595,nan,a6sa5636
+Lunges,GhostGUI,Body-orientation error,lower,0.2,20000.0,0.16766624743118883,0.1105723956715085,2339.0,a6sa5636
+Lunges,GhostGUI,Joint-position L2 error,lower,0.9,20000.0,0.6586720561794936,0.523035312573353,1850.0,a6sa5636
+Lunges,GhostGUI,Action-rate penalty,higher,-0.5,20000.0,-0.348763500299491,-0.26256860474388516,3092.0,a6sa5636
+Crawlstand,DSMS,Mean reward,higher,30.0,20000.0,32.02056198344498,40.16848028592944,3255.0,emyg51fi
+Crawlstand,DSMS,Body-orientation reward,higher,0.75,20000.0,0.5180082165366678,0.8449345766427274,25109.0,emyg51fi
+Crawlstand,DSMS,Anchor-position error,lower,0.12,20000.0,0.14020269778370859,0.09747176536334727,15802.0,emyg51fi
+Crawlstand,DSMS,Body-orientation error,lower,0.2,20000.0,0.42365839772820474,0.15131647843205762,25891.0,emyg51fi
+Crawlstand,DSMS,Joint-position L2 error,lower,0.9,20000.0,1.4575099333792925,0.6564505971120503,25030.0,emyg51fi
+Crawlstand,DSMS,Action-rate penalty,higher,-0.5,20000.0,-0.5495610322168097,-0.4111249476611733,14011.0,emyg51fi
+Crawlstand,GhostGUI,Mean reward,higher,30.0,20000.0,37.29489474894458,41.10178804140426,1848.0,3vzrknd9
+Crawlstand,GhostGUI,Body-orientation reward,higher,0.75,20000.0,0.7316920325677143,0.8036770154378133,5227.0,3vzrknd9
+Crawlstand,GhostGUI,Anchor-position error,lower,0.12,20000.0,0.12974686963483692,0.10129618880426336,6202.0,3vzrknd9
+Crawlstand,GhostGUI,Body-orientation error,lower,0.2,20000.0,0.2089859409449622,0.15213563334115013,4498.0,3vzrknd9
+Crawlstand,GhostGUI,Joint-position L2 error,lower,0.9,20000.0,0.7893159875229001,0.6201798195491532,2960.0,3vzrknd9
+Crawlstand,GhostGUI,Action-rate penalty,higher,-0.5,20000.0,-0.3939414484235458,-0.30042483465757197,3534.0,3vzrknd9
+Theworm,DSMS,Mean reward,higher,30.0,30000.0,29.227728493267072,32.75150406465425,10567.0,yw6un3kd
+Theworm,DSMS,Body-orientation reward,higher,0.75,30000.0,0.7414150100130821,0.8104768089667528,7086.0,yw6un3kd
+Theworm,DSMS,Anchor-position error,lower,0.12,30000.0,0.09362347978713612,0.0871510202224978,1389.0,yw6un3kd
+Theworm,DSMS,Body-orientation error,lower,0.2,30000.0,0.20005977579057216,0.16360632867037417,6016.0,yw6un3kd
+Theworm,DSMS,Joint-position L2 error,lower,0.9,30000.0,0.8247661594520013,0.6884555148031422,4239.0,yw6un3kd
+Theworm,DSMS,Action-rate penalty,higher,-0.5,30000.0,-0.7335695777271564,-0.6703509163118884,nan,yw6un3kd
+Theworm,GhostGUI,Mean reward,higher,30.0,30000.0,30.37114563396931,32.869404556805776,5591.0,kq6b014t
+Theworm,GhostGUI,Body-orientation reward,higher,0.75,30000.0,0.7301308555541483,0.7827206581176636,10553.0,kq6b014t
+Theworm,GhostGUI,Anchor-position error,lower,0.12,30000.0,0.09901185326129198,0.09377146915285411,1634.0,kq6b014t
+Theworm,GhostGUI,Body-orientation error,lower,0.2,30000.0,0.1896176072989901,0.1647690596308061,4317.0,kq6b014t
+Theworm,GhostGUI,Joint-position L2 error,lower,0.9,30000.0,1.0358937716990708,0.9005785737327949,25006.0,kq6b014t
+Theworm,GhostGUI,Action-rate penalty,higher,-0.5,30000.0,-0.5487081384912134,-0.48731932805445854,25533.0,kq6b014t
