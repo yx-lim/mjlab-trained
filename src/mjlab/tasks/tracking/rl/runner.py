@@ -58,7 +58,7 @@ class MotionTrackingOnPolicyRunner(MjlabOnPolicyRunner):
     super().__init__(env, train_cfg, log_dir, device)
     self.registry_name = registry_name
 
-  def export_policy_to_onnx(
+  def export_motion_policy_to_onnx(
     self, path: str, filename: str = "policy.onnx", verbose: bool = False
   ) -> None:
     os.makedirs(path, exist_ok=True)
@@ -93,7 +93,12 @@ class MotionTrackingOnPolicyRunner(MjlabOnPolicyRunner):
     super().save(path, infos)
     policy_dir, filename, onnx_path = self._get_export_paths(path)
     try:
-      self.export_policy_to_onnx(str(policy_dir), filename)
+      self.export_motion_policy_to_onnx(str(policy_dir), filename)
+      MjlabOnPolicyRunner.export_policy_to_onnx(
+        self,
+        str(policy_dir),
+        "policy.onnx",
+      )
       run_name: str = (
         wandb.run.name
         if self.logger.logger_type in ("wandb", "WandbLogWriter") and wandb.run
