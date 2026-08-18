@@ -1,0 +1,58 @@
+--- git commit ---
+1fea7608f178cfc4b2bd8f0f3543f9b6084706bb
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/2026-08-17_11-45-06.onnx
+	modified:   logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/events.out.tfevents.1786992309.vulcan.84698.0
+	modified:   logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/policy.onnx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_26000.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_26500.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_27000.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_27500.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_28000.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_28500.pt
+	logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/model_29000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/2026-08-17_11-45-06.onnx b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/2026-08-17_11-45-06.onnx
+index c5f2cb4..bb8e63c 100644
+--- a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/2026-08-17_11-45-06.onnx
++++ b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/2026-08-17_11-45-06.onnx
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:2a1f7c3f953fa093d6518885184e2fd894a2df0c55a9b58c848787e935026822
++oid sha256:037c8bbb9769cc012fcb9a4907638b63db200342adbc29f7b8f4445ab6396d0b
+ size 1571694
+diff --git a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/events.out.tfevents.1786992309.vulcan.84698.0 b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/events.out.tfevents.1786992309.vulcan.84698.0
+index 0821e72..31c24f4 100644
+--- a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/events.out.tfevents.1786992309.vulcan.84698.0
++++ b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/events.out.tfevents.1786992309.vulcan.84698.0
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:607e26a0d06a7ffbbc605b09f0ab2d5f6c4e3c949cbc810da6264c1f0b65cdaf
+-size 61293607
++oid sha256:603a88eca555bf913b41412afa11306d7b094c31271aa49193631c8cd2735731
++size 70306990
+diff --git a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/policy.onnx b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/policy.onnx
+index a2d5235..0915f31 100644
+--- a/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/policy.onnx
++++ b/logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06/policy.onnx
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:36a03d7ce538444e5b1b4eae41375a3927d49cdfdbf71a84b68e3a45747966e8
++oid sha256:284476a8617c5fd81ba3e6200c5b40f580be123c7abc7119a5ff07be5e9e8556
+ size 991954
