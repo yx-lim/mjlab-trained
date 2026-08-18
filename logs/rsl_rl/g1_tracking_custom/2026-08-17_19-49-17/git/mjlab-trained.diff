@@ -1,0 +1,31 @@
+--- git commit ---
+85e388d7219e688439c9afe3440b019230f287a9
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/events.out.tfevents.1787020520.vulcan.139787.0
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/rsl_rl/g1_tracking_custom/2026-08-17_19-49-17/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/events.out.tfevents.1787020520.vulcan.139787.0 b/logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/events.out.tfevents.1787020520.vulcan.139787.0
+index 2c9fa5c..4e74834 100644
+--- a/logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/events.out.tfevents.1787020520.vulcan.139787.0
++++ b/logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17/events.out.tfevents.1787020520.vulcan.139787.0
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:2b573d474db0cd6844d4a1aa2e0db73c0da45160dbad78c3b74d962c1cbbfb68
+-size 2715295
++oid sha256:0d1f5c4b64406ca02e4756fd4a5863dbe06f9a56e334a9bb44613ac26b2f229c
++size 3055363
