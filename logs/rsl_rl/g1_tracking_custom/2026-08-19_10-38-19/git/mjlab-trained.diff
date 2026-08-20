@@ -1,0 +1,112 @@
+--- git commit ---
+541c2e3ad6a75fc4b788a465298cfd18ab9e1d0b
+
+
+--- git status ---
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/2026-08-18_23-16-37.onnx
+	modified:   logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/events.out.tfevents.1787120200.vulcan.223098.0
+	modified:   logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/policy.onnx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_10000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_10500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_11000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_11500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_12000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_12500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_13000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_13500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_14000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_14500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_1500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_15000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_15500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_16000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_16500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_17000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_17500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_18000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_18500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_19000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_19500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_2000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_20000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_20500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_21000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_21500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_22000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_22500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_23000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_23500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_24000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_24500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_2500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_25000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_25500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_26000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_26500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_27000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_27500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_28000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_28500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_29000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_29500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_3000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_30000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_3500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_4000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_4500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_5000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_5500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_6000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_6500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_7000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_7500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_8000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_8500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_9000.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/model_9500.pt
+	logs/rsl_rl/g1_tracking_custom/2026-08-18_23-29-04/
+	logs/rsl_rl/g1_tracking_custom/2026-08-19_04-59-25/
+	logs/rsl_rl/g1_tracking_custom/2026-08-19_06-00-07/
+	logs/rsl_rl/g1_tracking_custom/2026-08-19_10-38-19/
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+
+--- git diff ---
+diff --git a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/2026-08-18_23-16-37.onnx b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/2026-08-18_23-16-37.onnx
+index ee149b5..e7625cc 100644
+--- a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/2026-08-18_23-16-37.onnx
++++ b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/2026-08-18_23-16-37.onnx
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:2d5fdb43ec29f9e503353eda22b6afe84b7b68766352d224794e60a86f183af4
++oid sha256:2b3e8f5744efc5eb3dd9bdf87be80b6d2a01f8fa117b6c7adf8e318d386be8b4
+ size 1158894
+diff --git a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/events.out.tfevents.1787120200.vulcan.223098.0 b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/events.out.tfevents.1787120200.vulcan.223098.0
+index 5f44c73..4033458 100644
+--- a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/events.out.tfevents.1787120200.vulcan.223098.0
++++ b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/events.out.tfevents.1787120200.vulcan.223098.0
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:ce822f67e9f5dc85b75b72932ae28fb14b583f456dc8d2d6fc4a77d4c13b9c25
+-size 2449573
++oid sha256:4bc83ce549f6fd161a75ff34e1ded46654a98aa99d3147f553c19248d8927487
++size 72038005
+diff --git a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/policy.onnx b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/policy.onnx
+index 6f545b0..682555a 100644
+--- a/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/policy.onnx
++++ b/logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37/policy.onnx
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:fa9b7589f29e086dcf57b43cf95c2031fa1529edccb2de78a6f4606d5d26dbc7
++oid sha256:6e546aab5b072aab3cea353e265b0f87d456cbba29a929845a18f74a5fd9c11f
+ size 991954
