@@ -9,7 +9,9 @@ other body geom is condim=1, i.e. frictionless. This env enables tangential
 friction (condim=3) and priority=1 on *all* collision geoms so the whole body
 has meaningful, robot-governed ground friction, then randomizes that friction.
 """
+
 from dataclasses import replace
+
 from mjlab.envs import ManagerBasedRlEnvCfg
 from mjlab.envs.mdp import dr
 from mjlab.managers.event_manager import EventTermCfg
