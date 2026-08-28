@@ -6,12 +6,23 @@ on:
       - main
     tags:
       - 'v*'
+    paths-ignore:
+      - 'logs/**'
+      - 'experiments/**'
+      - 'notebooks/**'
+      - 'wandb*.csv'
+      - 'motions/**'
+      - '*.mp4'
 
 permissions:
   contents: write
 
 env:
   UV_FROZEN: "1"
+  # sphinx-multiversion creates additional worktrees. Keep LFS objects as
+  # pointers in those checkouts so documentation builds do not consume LFS
+  # download bandwidth for training artifacts.
+  GIT_LFS_SKIP_SMUDGE: "1"
 
 jobs:
   build:
