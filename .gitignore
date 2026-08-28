@@ -12,6 +12,16 @@ artifacts/
 .venv/
 render_robots.py
 benchmark_results/
+.DS_Store
+
+# Generated RL training artifacts. Keep these locally or in artifact storage
+# rather than committing every checkpoint to Git LFS.
+logs/**/model_*.pt
+logs/**/events.out.tfevents.*
+logs/**/*.onnx
+
+# Retain curated exported policies in the repository.
+!logs/**/policy.onnx
 
 # Documentation outputs.
 **/_build/*
