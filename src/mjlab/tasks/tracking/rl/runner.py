@@ -92,13 +92,16 @@ class MotionTrackingOnPolicyRunner(MjlabOnPolicyRunner):
   def save(self, path: str, infos=None):
     super().save(path, infos)
     policy_dir, filename, onnx_path = self._get_export_paths(path)
+    is_wandb_upload = (
+      self.logger.logger_type in ("wandb", "WandbLogWriter")
+      and self.cfg["upload_model"]
+    )
+    if is_wandb_upload and self.registry_name is not None and wandb.run is not None:
+      wandb.run.use_artifact(self.registry_name)
+      self.registry_name = None
     try:
       self.export_motion_policy_to_onnx(str(policy_dir), filename)
-      MjlabOnPolicyRunner.export_policy_to_onnx(
-        self,
-        str(policy_dir),
-        "policy.onnx",
-      )
+      self.export_policy_to_onnx(str(policy_dir), "policy.onnx")
       run_name: str = (
         wandb.run.name
         if self.logger.logger_type in ("wandb", "WandbLogWriter") and wandb.run
@@ -115,13 +118,7 @@ class MotionTrackingOnPolicyRunner(MjlabOnPolicyRunner):
         }
       )
       attach_metadata_to_onnx(str(onnx_path), metadata)
-      if (
-        self.logger.logger_type in ("wandb", "WandbLogWriter")
-        and self.cfg["upload_model"]
-      ):
+      if is_wandb_upload:
         wandb.save(str(onnx_path), base_path=str(policy_dir))
-        if self.registry_name is not None:
-          wandb.run.use_artifact(self.registry_name)  # type: ignore
-          self.registry_name = None
     except Exception as e:
       print(f"[WARN] ONNX export failed (training continues): {e}")

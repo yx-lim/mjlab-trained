@@ -27,6 +27,9 @@ Changed
 Fixed
 ^^^^^
 
+- Fixed tracking runs failing to register their motion artifact with W&B when
+  ONNX export fails during checkpoint saving.
+
 Version 1.5.3 (July 22, 2026)
 -----------------------------
 
