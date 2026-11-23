@@ -29,6 +29,8 @@ Changed
 Fixed
 ^^^^^
 
+- Kept fresh installs on the MuJoCo 3-compatible viewer releases to avoid
+  overlapping MuJoCo 3 and 4 bindings and missing-library import errors.
 - Fixed tracking runs failing to register their motion artifact with W&B when
   ONNX export fails during checkpoint saving.
 
