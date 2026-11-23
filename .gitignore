@@ -20,8 +20,8 @@ logs/**/model_*.pt
 logs/**/events.out.tfevents.*
 logs/**/*.onnx
 
-# Retain curated exported policies in the repository.
-!logs/**/policy.onnx
+# Curated models live separately from generated training output.
+/logs/rsl_rl/
 
 # Documentation outputs.
 **/_build/*

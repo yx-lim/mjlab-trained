@@ -1715,9 +1715,9 @@ docs = [
 
 [package.metadata]
 requires-dist = [
-    { name = "imageio-ffmpeg" },
+    { name = "imageio-ffmpeg", specifier = "==0.6.0" },
     { name = "mediapy", specifier = ">=1.2.6" },
-    { name = "mjviser", specifier = ">=0.0.14" },
+    { name = "mjviser", specifier = ">=0.0.14,<0.0.17" },
     { name = "mujoco", specifier = "~=3.10.0" },
     { name = "mujoco-warp", specifier = "~=3.10.0,>=3.10.0.3" },
     { name = "numpy", specifier = "<2.5" },

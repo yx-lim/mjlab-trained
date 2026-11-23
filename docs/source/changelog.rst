@@ -18,6 +18,8 @@ Added
 Changed
 ^^^^^^^
 
+- Moved selected checkpoints, policies, and run configurations into ``models/``
+  with a checksum catalog and a check that rejects generated training output.
 - Tracking debug traces now record reference and robot joint velocities for
   position, velocity, and combined-state RMSE analysis.
 - Changed the default MuJoCo Warp render background to solid black
@@ -27,6 +29,10 @@ Changed
 Fixed
 ^^^^^
 
+- Kept fresh installs on the MuJoCo 3-compatible viewer releases to avoid
+  overlapping MuJoCo 3 and 4 bindings and missing-library import errors.
+- Kept the tested FFmpeg bundle while mediapy depends on its legacy video
+  synchronization option, preserving video recording and playback checks.
 - Fixed tracking runs failing to register their motion artifact with W&B when
   ONNX export fails during checkpoint saving.
 
