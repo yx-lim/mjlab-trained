@@ -48,7 +48,8 @@ dependencies = [
   # mediapy 1.2.6 subclasses npt.NDArray at import, which numpy>=2.5 rejects.
   # The upstream fix (google/mediapy#66) is unmerged, so cap numpy until it lands.
   "numpy<2.5",
-  "imageio-ffmpeg",
+  # mediapy still uses -vsync, which bundled FFmpeg 9 no longer accepts.
+  "imageio-ffmpeg==0.6.0",
   "tensordict",
   "rsl-rl-lib==5.4.0",
   "tensorboard>=2.20.0",
