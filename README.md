@@ -16,6 +16,11 @@ with minimal dependencies and direct access to native MuJoCo data structures.
 
 ## Getting Started
 
+The selected trained models for this repository are in [`models/`](models/README.md).
+Their checksums and original paths are recorded in
+[`models/manifest.json`](models/manifest.json). Generated checkpoints and TensorBoard
+logs belong in local training output or the external archive, outside Git history.
+
 mjlab requires an NVIDIA GPU for training. macOS is supported for evaluation only.
 
 **Try it now:**

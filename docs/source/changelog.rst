@@ -18,6 +18,8 @@ Added
 Changed
 ^^^^^^^
 
+- Moved selected checkpoints, policies, and run configurations into ``models/``
+  with a checksum catalog and a check that rejects generated training output.
 - Tracking debug traces now record reference and robot joint velocities for
   position, velocity, and combined-state RMSE analysis.
 - Changed the default MuJoCo Warp render background to solid black

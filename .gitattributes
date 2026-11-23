@@ -1,3 +1,2 @@
-logs/**/*.pt filter=lfs diff=lfs merge=lfs -text
-logs/**/*.onnx filter=lfs diff=lfs merge=lfs -text
-logs/**/events.out.tfevents.* filter=lfs diff=lfs merge=lfs -text
+models/**/*.pt filter=lfs diff=lfs merge=lfs -text
+models/**/*.onnx filter=lfs diff=lfs merge=lfs -text

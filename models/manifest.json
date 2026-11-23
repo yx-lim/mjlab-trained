@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "description": "Curated model objects; additions and replacements must be explicitly recorded here.",
+  "artifacts": [
+    {
+      "path": "models/g1_tracking/2026-08-05_15-32-52_getup1/model_3999.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-05_15-32-52_getup1/model_3999.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "daa6290064e6e2864f788de17e73662783485916fa56daa8b7dc2e311df23251",
+      "size": 6769269,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-05_16-56-43_getup1.1/model_9000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-05_16-56-43_getup1.1/model_9000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "bf1f30c28f77cf44df48e49043218719886aba9d6332a981c1846b08e9f0eb91",
+      "size": 6769269,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-05_19-09-41_getup1.2/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-05_19-09-41_getup1.2/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "a8f6c661daac4895e15cf9aa37ee87d91520b5a202317d6b91016cda30916723",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-06_15-15-05_kneel1/model_4500.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-06_15-15-05_kneel1/model_4500.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "4ff415adffc4ef5b2886e99b0420a0685f2d68b0b587b96ffd9becc5c0c9e032",
+      "size": 6769269,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-06_17-04-46_kneel1.1/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-06_17-04-46_kneel1.1/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "d444536a3bdbdf53cf1474278a0a7507d4f50c18095eafd01e485d6abe10adbf",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-10_10-20-30_slidefloat/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-10_10-20-30_slidefloat/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "80de7b8949f153f3a20ef6f95ba0fb95f5abca3a68001db257b289f48515c951",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-10_10-34-09_lunges/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-10_10-34-09_lunges/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "4d808cd769d4b37e4fb233426f136d888c85126597fdf8666f5ebe262cb4105d",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-10_17-08-15_worm1/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-10_17-08-15_worm1/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "deca934c77c90a44d840701bccc80d4f7ec10c1ee3423c728025213668251f19",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-10_17-08-45_worm1gg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-10_17-08-45_worm1gg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "19093abf0cf901141ad72cf275f9e76da5455bdde68bc7d76df0275131f3cd61",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-10_17-22-18_crawlstand/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-10_17-22-18_crawlstand/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "f07ecc131e9a50d836103e1b0f6711fdfbf0845af54379704a24a4bc20512eb6",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-12_18-41-51_lunges2/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-12_18-41-51_lunges2/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "1a2c7a3d526966d363e60485b383cdbcadb7416ae610ab91f9f07218179d55c1",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-12_18-43-33_lunges2gg/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-12_18-43-33_lunges2gg/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "b8f95469f7485849475ade3457130bc452f9df33947090b9085764104071de00",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-13_18-57-33_crawlstand1gg/model_20000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-13_18-57-33_crawlstand1gg/model_20000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "02f2a61e9d9c1d9d9e0c1edd6d3673b8f2ce2bf42c5dfc81a204af47b1cea53a",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-13_22-08-47_thewormgg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-13_22-08-47_thewormgg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "f91b01a47036e4b898b8ed7371eed2c0a522321a6de7fc73adeee56c2d9c796b",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking/2026-08-13_22-30-44_theworm/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking/2026-08-13_22-30-44_theworm/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "4c455803500b3dfaddf341d72a9fd7a05b5115a24e25b535598c929b4f97106d",
+      "size": 6769351,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_contactrich_custom/2026-08-17_11-45-06_crawlstand/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06_crawlstand/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "9735220613238ca43a8e3c0da7b8df7900e5b125f08ab29c282d7842346fb058",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_contactrich_custom/2026-08-17_11-45-06_crawlstand/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-17_11-45-06_crawlstand/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "c8014f1cca673982b8cb03344c71f2ece4185f798bd7907b791f0c9808c8a1dc",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_contactrich_custom/2026-08-18_15-43-39_theworm2/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-18_15-43-39_theworm2/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "a92724d04151a20041f3338323479df13fb7b22ca21b2bbb63c7c3c293999ef4",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_contactrich_custom/2026-08-18_15-43-39_theworm2/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_contactrich_custom/2026-08-18_15-43-39_theworm2/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "1356c91273f0b2589ed2b2ed17b0aa1d84649e01cb70462ef23114f5f9a9a332",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_11-47-49_lunges/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_11-47-49_lunges/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "a1ea75edf753d30b6f926c1d33609e314f43b2338202b75f7e78043f9b30385e",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_11-47-49_lunges/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_11-47-49_lunges/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "d7de6363e77d4a850daaf8acb527831d8a9d85d128d5b9a0547e06b93cfedcf6",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_19-35-17_facedown/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17_facedown/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "b7db9b6752ff2d44a19f7049a8d4ea6e9ed23d26de06fd366a2a0640803f89d0",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_19-35-17_facedown/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_19-35-17_facedown/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "99602d7fc1b8bd245cd0f813a6befbf55229ef50e3f47c9201c0cb1849ff473a",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_19-49-17_facedowngg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_19-49-17_facedowngg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "0241b68b2f1112bb034ac33dea166a689cf3cbcd845394403ecd6a7e8064f029",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-17_19-49-17_facedowngg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-17_19-49-17_facedowngg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "579291e6cb3ccf69e8316f5e6cc58a917b7fced2dc8ff074c56efbada14622ec",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_00-59-31_pushup/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_00-59-31_pushup/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "c8e7dcbf1aec91aca689a37b74bb4a12e05de2ad9328ee357afebec2ff4efa15",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_00-59-31_pushup/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_00-59-31_pushup/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "4afb96597afc6445e8de44cae070f1b31b3bb649d1da62a0157a4f641d31cdbd",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_02-05-25_pushupgg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_02-05-25_pushupgg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "9bdf689d4192c002b6196157dfeca565c3d7993654265a27c7c6210e9143821c",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_02-05-25_pushupgg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_02-05-25_pushupgg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "34f1920f542efc48c29e34991bdb552b7d2583188be6f0e3e5726b3c7fbd231a",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_06-19-46_squat/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_06-19-46_squat/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "5835ae61e73cde7bb7c2343a540ae10dfb6969443f90fadcc27d52ad0285aad7",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_06-19-46_squat/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_06-19-46_squat/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "8f4ba8e162900a15747315a547573ba3850d76068a1f626983e8939a47c15108",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_08-16-05_squatgg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_08-16-05_squatgg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "33ce6fb4e6a75bb04d94be24a21f61caf5849c2d46b14fdcceb7c28b9c9833ad",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_08-16-05_squatgg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_08-16-05_squatgg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "8425a39daed7ca96dc3202feb0dd6d485fed1b570235f753a2d91041eda9972b",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_13-38-07_getup/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_13-38-07_getup/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "86e2bd902658278bce84956a859dc92db6c8b15079d22c8a4acf09f24f14d662",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_13-38-07_getup/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_13-38-07_getup/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "f6e92337d1feb92bbcafafbf28eebc270992927f172f304e9acee646735a57ac",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_23-16-37_lunges3gg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37_lunges3gg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "af62963d64f7d971b63f6ce11d141244a1bbe6d6e7b65a9b5df6ba8911e23002",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_23-16-37_lunges3gg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_23-16-37_lunges3gg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "6e546aab5b072aab3cea353e265b0f87d456cbba29a929845a18f74a5fd9c11f",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_23-29-04_lunges3/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_23-29-04_lunges3/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "6eef8b080323805834587ed6371cfea46f054fe5589bfcb5d0ae2ebea3beb0ae",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-18_23-29-04_lunges3/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-18_23-29-04_lunges3/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "16865fc869e21048159f6da09b528a2736a08c7331bb52d0ce2a688fb87fd899",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_04-59-25_crouchgg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_04-59-25_crouchgg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "9a293c207618d8345d6e6c291bbf86d67607cc36091f5c3de8795ea444a8e75c",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_04-59-25_crouchgg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_04-59-25_crouchgg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "1c59279aedb4463d384fda625989218c2760253223cb4ff21e02264ae354f16a",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_06-00-07_crouch/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_06-00-07_crouch/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "7e1ff1db7a0638b3bdfa534385d1eb8e88c9297cf6665fe41288911ca7379a77",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_06-00-07_crouch/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_06-00-07_crouch/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "c2a69375a1ed274b19aa6ba27cefffd81b4b3130c30c5e73192d377ee9cac1c4",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_10-38-19_facedown1gg/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_10-38-19_facedown1gg/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "a115b75b00bc7c968c4fce94e72d0264fb4e70e0b1a219e6b0dd10e72963c64e",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_10-38-19_facedown1gg/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_10-38-19_facedown1gg/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "d6dcb8a76447d044ccd98b222a04b108dcbd39ef96bc454c1fe365e12e2fa572",
+      "size": 991954,
+      "kind": "policy"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_12-23-41/model_30000.pt",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_12-23-41/model_30000.pt",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "9e0dd002e148597f32d8587957a61d91ab21d32e4d69a75544fb7757361e1f40",
+      "size": 6732295,
+      "kind": "checkpoint"
+    },
+    {
+      "path": "models/g1_tracking_custom/2026-08-19_12-23-41/policy.onnx",
+      "source_path": "logs/rsl_rl/g1_tracking_custom/2026-08-19_12-23-41/policy.onnx",
+      "source_commit": "28de93b77c131471f1e4c1cb2cf8524d7701f4bb",
+      "sha256": "ec462a018f76dc2762a62220a1aaee321a325c5a1806459e53ad2ede89f6d7c1",
+      "size": 991954,
+      "kind": "policy"
+    }
+  ]
+}
