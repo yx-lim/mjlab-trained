@@ -42,7 +42,8 @@ dependencies = [
   "trimesh>=4.8.3",
   "scipy>=1.15",
   "viser>=1.0.27",
-  "mjviser>=0.0.14",
+  # mjviser 0.0.17 introduces mujoco-core 4, which overlaps MuJoCo 3's files.
+  "mjviser>=0.0.14,<0.0.17",
   "mediapy>=1.2.6",
   # mediapy 1.2.6 subclasses npt.NDArray at import, which numpy>=2.5 rejects.
   # The upstream fix (google/mediapy#66) is unmerged, so cap numpy until it lands.
